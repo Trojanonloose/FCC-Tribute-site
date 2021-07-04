@@ -17,8 +17,10 @@ body {
 }
 
 #image {
-  width: 80%;
+  max-width: 100%;
   height: auto;
+  display: block;
+  margin: 0 auto 0 auto;
 }
 
 h1 {
@@ -64,7 +66,7 @@ ul {
 }
 
 #tribute-link:visited {
-  color: blue;
+  color: #74638f;
 }
 
 #tribute-link:hover {
